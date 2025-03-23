@@ -9,16 +9,11 @@ This is a simple FastAPI-based user management API that allows inserting and ret
 - Uses SQLAlchemy for database interactions
 
 ## Installation
-1. Clone the repository:
-   ```sh
-   git clone <repository-url>
-   cd <repository-folder>
-   ```
-2. Install dependencies:
+1. Install dependencies:
    ```sh
    pip install fastapi uvicorn sqlalchemy
    ```
-3. Set up the database by defining the required models in `models.py` and configuring the database connection in `database.py`.
+2. Set up the database by defining the required models in `models.py` and configuring the database connection in `database.py`.
 
 ## Running the Application
 Start the FastAPI server using Uvicorn:
